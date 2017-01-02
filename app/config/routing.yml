@@ -1,0 +1,12 @@
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
+
+login_check:
+    path: /login/check
+
+logout:
+    path: /logout
+
+fos_js_routing:
+  resource: "@FOSJsRoutingBundle/Resources/config/routing/routing.xml"
